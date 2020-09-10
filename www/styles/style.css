@@ -1,0 +1,47 @@
+@import 'normalize.css';
+@font-face {
+    font-family: 'AmaticSC-Bold';
+    src: url('fonts/AmaticSC-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/AmaticSC-Bold.woff') format('woff'), url('fonts/AmaticSC-Bold.ttf')  format('truetype'), url('fonts/AmaticSC-Bold.svg#AmaticSC-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+header {
+    background-color: white;
+    display: inline;
+    text-align: center;
+    
+}
+a {
+    margin: 10px;
+}
+#presentacion {
+    text-align: center;
+    background-image: url('/images/header-image.jpg');
+    height: 800px;
+
+}
+ h1,h2,h3 {
+    margin: center;
+    color: #3279fc;
+    
+}
+strong {
+    font-family: 'AmaticSC-Bold',Arial, Helvetica, sans-serif;
+}
+.e {
+    color: white;
+
+}
+.t {
+    color: blue;
+}
+.experience {
+    text-align: center;
+    background-image: url('/images/mountain1.jpg');
+    height: 800px;
+}
+.experience h2 {
+    color: blue;
+}
