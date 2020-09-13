@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" media="only screen and (max-width: 2160px)" href="styles/style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>ejercicio 2</title>
 </head>
 <body>
     <header>
         <nav>
-            <a href="#intro">THE LODGE</a>
-            <a href="#experience">OUR SKI RUNS</a>
-            <a class="logo" href="">THE SUMMIT</a>
-            <a href="">HOW GET THERE</a>
-            <a href="">CONTACT</a>
+            <a href=".experience">THE LODGE</a>
+            <a href=".experience">OUR SKI RUNS</a>
+            <a id="logonav" class="logo" href="#summit">THE SUMMIT</a>
+            <a href="#deportes">HOW GET THERE</a>
+            <a href="#contacto">CONTACT</a>
         </nav>
     </header>
     <section id="presentacion">
@@ -25,24 +25,26 @@
         
     </section>
     
-    <section class="experience">
-        <h2>THE EXPERIENCE</h2>
+    <section id="summit" class="experience">
+        <h2 class="logo">THE EXPERIENCE</h2>
         <article>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque rem quisquam dolore sunt aliquid sapiente ratione et nostrum. Impedit itaque tempore totam cum repellat delectus. A minus dicta iste. Beatae?</p>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla in fugiat facilis placeat molestias dicta temporibus maxime itaque fugit veritatis, ipsa architecto tenetur cum nesciunt enim, numquam debitis animi!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In assumenda quisquam nostrum corrupti eius inventore. Sequi voluptate voluptatem nemo numquam cumque vitae odio deleniti magnam! Assumenda commodi quasi aut facere!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam expedita ab facere, non neque dignissimos commodi aliquam veritatis facilis praesentium debitis id incidunt enim deserunt architecto amet tempore voluptatem natus!</p>
+            
         </article>
     </section>
-    <section class="actividades">
-        <h2>THE ACTIVITIES</h2>
-        <div class="actividad">SKING</div>
-        <div class="actividad">SNOWBOARDING</div>
-        <div class="actividad">SHOEING</div>
-        <div class="actividad">DOGSLEDDING</div>
-        <div class="actividad">TUBING</div>
-        <div class="actividad">SLEDDING</div>
+    <h2>THE ACTIVITIES</h2>
+    <section id="deportes" class="actividades">
+        
+        <div class="actividad" id="actividad1"><h3>SKING</h3></div>
+        <div class="actividad"><h3>SNOWBOARDING</h3></div>
+        <div class="actividad"><h3>SHOEING</h3></div>
+        <div class="actividad"><h3>DOGSLEDDING</h3></div>
+        <div class="actividad"><h3>TUBING</h3></div>
+        <div class="actividad" id="actividad6"><h3>SLEDDING</h3></div>
     </section>
-    <footer>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+    <footer id="contacto">
+        <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
     </footer>
 
     
